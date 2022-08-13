@@ -1,0 +1,121 @@
+.attribution {
+    font-size: 15px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    right: 38%;
+    }
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+body{
+    font-family: var(--ff-primary);
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    width: 327px;
+    height: 367px;
+    border-radius: 20px;
+    background-image: url(images/illustration-hero.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    padding: 160px 0 0 0;
+    box-shadow: 0 15px 30px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.card{
+    text-align: center;  
+}
+.price{
+    height: 75px;
+    width: 275px;
+    background-color:hsl(225, 100%, 98%) ;
+    border-radius: 10px;
+    margin-left: 25px;
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+.icon{
+    transform: translate(25px,15px);
+}
+.plan{
+    width: 155px;
+    height: 50px;
+    align-self: center;
+    line-height: 20px;
+    margin-right: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.plan b{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 15px;
+    position: absolute;
+    transform: translate(0px,-15px);
+    
+    
+}
+.plan p{
+    font-size: 1rem;
+    color: hsl(224, 23%, 55%);
+}
+.price a {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size:12px;
+    color: hsl(245, 75%, 52%);
+    justify-self: end;
+    align-self: center;
+    position: absolute;
+    transform: translate(-10px);
+}
+.price a:hover{
+    text-decoration: none;
+}
+button{
+    height: 50px;
+    width: 275px;
+    background-color: hsl(245, 75%, 52%);
+    margin: 25px;
+    border-radius: 12px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1rem;
+    
+}
+button:hover{
+    background-color: hsl(225, 100%, 94%);
+}
+p{
+    color: hsl(224, 23%, 55%);
+    font-size: 0.9rem;
+    line-height: 20px;
+    font-family: 'Fraunces', serif;
+    align-items: center;
+}
+.cancel{
+    
+    margin-bottom: 20px;
+    text-decoration: none;
+    color:  hsl(224, 23%, 55%);
+    font-weight: 600;
+}
+.cancel:hover{
+    color: #000;
+}
+h1{
+    font-family: 'Fraunces', serif;
+}
